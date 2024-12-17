@@ -1,0 +1,4 @@
+<div>
+    <input #s type="text" placeholder="Search Item" (keyup.enter)="search(s.value)" [value]="searchTerm" [(ngModel)]="searchTermTest">
+    <button (click)="search(s.value)">Search</button>
+</div>
